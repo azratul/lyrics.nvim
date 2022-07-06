@@ -41,6 +41,7 @@ function M.run(args)
                         print("Error decoding JSON")
                         return
                     end
+                    print("Ready!!!")
                     pcall(cmd, 'enew')
                     cmd("normal i " .. o[1])
                     cmd("normal o")
