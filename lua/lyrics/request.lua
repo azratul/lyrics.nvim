@@ -16,6 +16,8 @@ function M.run(args)
     for word in string.gmatch(args, '([^:]+)') do
         w = string.gsub(word, ' ', '%%20')
         w = string.lower(w)
+        word = string.upper(word)
+
         table.insert(a, w)
         table.insert(o, word)
     end

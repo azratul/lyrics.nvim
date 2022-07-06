@@ -1,4 +1,4 @@
-# Neovim Plugin for request lyrics into you vim buffer
+# Neovim Plugin for request lyrics into your vim buffer
 
 Work in Progress
 
