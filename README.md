@@ -23,6 +23,7 @@ An example from lyrics.ovh:
 Load the lyrics from the API
 
 Lyrics [artist]:[song]
+
 E.g.:
 
 
