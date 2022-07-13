@@ -1,0 +1,35 @@
+*lyrics_help*
+================================================================================
+CONTENTS                                                           *lyrics.nvim*
+
+lyrics.nvim is a plugin for loading lyrics into your vim buffer.
+
+    1. Command.................................................|lyrics_commands|
+    2. Settings................................................|lyrics_settings|
+
+To find out more:
+https://github.com/azratul/lyrics.nvim
+
+================================================================================
+COMMANDS                                                       *lyrics_commands*
+
+
+Lyrics [artist]:[song]                                                  *Lyrics*
+    Load the lyrics from the API
+    Eg:
+<
+    :Lyrics moonspell:alma mater
+>
+
+================================================================================
+SETTINGS                                                       *lyrics_settings*
+
+
+You need to add this lines into your config file:
+    An example:
+
+<
+    require("lyrics").setup({
+      url = "https://api.lyrics.ovh/v1/",
+    })
+>
