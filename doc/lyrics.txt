@@ -16,10 +16,10 @@ COMMANDS                                                       *lyrics_commands*
 
 Lyrics [artist]:[song]                                                  *Lyrics*
     Load the lyrics from the API
-    Eg:
-<
-    :Lyrics moonspell:alma mater
+    E.g.:
 >
+    :Lyrics moonspell:alma mater
+<
 
 ================================================================================
 SETTINGS                                                       *lyrics_settings*
@@ -28,8 +28,10 @@ SETTINGS                                                       *lyrics_settings*
 You need to add this lines into your config file:
     An example:
 
-<
+>
     require("lyrics").setup({
       url = "https://api.lyrics.ovh/v1/",
     })
->
+<
+================================================================================
+vim:ft=help:et:ts=2:sw=2:sts=2:norl
