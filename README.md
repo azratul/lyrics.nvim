@@ -3,6 +3,7 @@
 
 lyrics.nvim is a plugin for loading lyrics into your vim buffer.
 
+> Plenary plugin installed  is mandatory
 
 # Settings
 
