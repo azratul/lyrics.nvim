@@ -1,3 +1,5 @@
 Lyrics	lyrics.txt	/*Lyrics*
-LyricsHelp	lyrics.txt	/*lyrics_help*
-LyricsSettings	lyrics.txt	/*lyrics_settings*
+lyrics.nvim	lyrics.txt	/*lyrics.nvim*
+lyrics_commands	lyrics.txt	/*lyrics_commands*
+lyrics_help	lyrics.txt	/*lyrics_help*
+lyrics_settings	lyrics.txt	/*lyrics_settings*
